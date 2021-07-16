@@ -1,2 +1,2 @@
 # bootcamp-homework
-University of Minnesota Cybersecurity
+University of Minnesota Cybersecurity Bootcamp
