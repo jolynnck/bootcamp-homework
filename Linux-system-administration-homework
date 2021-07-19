@@ -69,15 +69,15 @@
 
 ### Step 4: Lynis Auditing
 
-1. Command to install Lynis:
+1. Command to install Lynis:  sudo apt install Lynis
 
-2. Command to see documentation and instructions:
+2. Command to see documentation and instructions:  man Lynis
 
-3. Command to run an audit:
+3. Command to run an audit:  sudo lynis audit system
 
 4. Provide a report from the Lynis output on what can be done to harden the system.
 
-    - Screenshot of report output:
+    - Screenshot of report output:  
 
 
 ### Bonus
