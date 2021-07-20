@@ -1,0 +1,22 @@
+#!/bin/bash
+
+#Assignment details
+#Complete the following tasks:
+#Remain in the Dealer_Analysis directory.  Develop a shell script called roulette_dealer_finder_by_time.sh that can analyze the employee schedule to easily find the roulette dealer at a specific time.
+#Design the shell script to accept the following two arguments:
+#One for the date (four digits)
+#One for the time
+#Note: The argument should be able to accept a.m. or p.m.
+#Test your script on the schedules to confirm it outputs the correct dealer at the time specified.
+
+#Assignment submission
+
+#prompt for data input
+
+read -p 'Input Date (MMDD): ' date
+read -p 'Input Time (HH): ' time1
+read -p 'Input AM or PM: ' time2
+
+echo "At ${time1}:00 ${time2} on ${date}, the roulette dealer was "
+
+grep -i "${time1}:00:00 ${time2}" ${date}_Dealer_schedule | awk -F" " '{print $5,$6}'
